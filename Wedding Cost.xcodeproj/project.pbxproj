@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C82FD801A039F5600218141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82FD7F1A039F5600218141 /* AppDelegate.swift */; };
+		9C82FD831A039F5600218141 /* Wedding_Cost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C82FD811A039F5600218141 /* Wedding_Cost.xcdatamodeld */; };
+		9C82FD851A039F5600218141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82FD841A039F5600218141 /* ViewController.swift */; };
+		9C82FD881A039F5600218141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C82FD861A039F5600218141 /* Main.storyboard */; };
+		9C82FD8A1A039F5600218141 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C82FD891A039F5600218141 /* Images.xcassets */; };
+		9C82FD8D1A039F5600218141 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C82FD8B1A039F5600218141 /* LaunchScreen.xib */; };
+		9C82FD991A039F5600218141 /* Wedding_CostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82FD981A039F5600218141 /* Wedding_CostTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C82FD931A039F5600218141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C82FD721A039F5600218141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C82FD791A039F5600218141;
+			remoteInfo = "Wedding Cost";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C82FD7A1A039F5600218141 /* Wedding Cost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding Cost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C82FD7E1A039F5600218141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C82FD7F1A039F5600218141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C82FD821A039F5600218141 /* Wedding_Cost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wedding_Cost.xcdatamodel; sourceTree = "<group>"; };
+		9C82FD841A039F5600218141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C82FD871A039F5600218141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C82FD891A039F5600218141 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C82FD8C1A039F5600218141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C82FD921A039F5600218141 /* Wedding CostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding CostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C82FD971A039F5600218141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C82FD981A039F5600218141 /* Wedding_CostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_CostTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C82FD771A039F5600218141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82FD8F1A039F5600218141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C82FD711A039F5600218141 = {
+			isa = PBXGroup;
+			children = (
+				9C82FD7C1A039F5600218141 /* Wedding Cost */,
+				9C82FD951A039F5600218141 /* Wedding CostTests */,
+				9C82FD7B1A039F5600218141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C82FD7B1A039F5600218141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C82FD7A1A039F5600218141 /* Wedding Cost.app */,
+				9C82FD921A039F5600218141 /* Wedding CostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C82FD7C1A039F5600218141 /* Wedding Cost */ = {
+			isa = PBXGroup;
+			children = (
+				9C82FD7F1A039F5600218141 /* AppDelegate.swift */,
+				9C82FD841A039F5600218141 /* ViewController.swift */,
+				9C82FD861A039F5600218141 /* Main.storyboard */,
+				9C82FD891A039F5600218141 /* Images.xcassets */,
+				9C82FD8B1A039F5600218141 /* LaunchScreen.xib */,
+				9C82FD811A039F5600218141 /* Wedding_Cost.xcdatamodeld */,
+				9C82FD7D1A039F5600218141 /* Supporting Files */,
+			);
+			path = "Wedding Cost";
+			sourceTree = "<group>";
+		};
+		9C82FD7D1A039F5600218141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C82FD7E1A039F5600218141 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C82FD951A039F5600218141 /* Wedding CostTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C82FD981A039F5600218141 /* Wedding_CostTests.swift */,
+				9C82FD961A039F5600218141 /* Supporting Files */,
+			);
+			path = "Wedding CostTests";
+			sourceTree = "<group>";
+		};
+		9C82FD961A039F5600218141 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C82FD971A039F5600218141 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C82FD791A039F5600218141 /* Wedding Cost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C82FD9C1A039F5600218141 /* Build configuration list for PBXNativeTarget "Wedding Cost" */;
+			buildPhases = (
+				9C82FD761A039F5600218141 /* Sources */,
+				9C82FD771A039F5600218141 /* Frameworks */,
+				9C82FD781A039F5600218141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wedding Cost";
+			productName = "Wedding Cost";
+			productReference = 9C82FD7A1A039F5600218141 /* Wedding Cost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C82FD911A039F5600218141 /* Wedding CostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C82FD9F1A039F5600218141 /* Build configuration list for PBXNativeTarget "Wedding CostTests" */;
+			buildPhases = (
+				9C82FD8E1A039F5600218141 /* Sources */,
+				9C82FD8F1A039F5600218141 /* Frameworks */,
+				9C82FD901A039F5600218141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C82FD941A039F5600218141 /* PBXTargetDependency */,
+			);
+			name = "Wedding CostTests";
+			productName = "Wedding CostTests";
+			productReference = 9C82FD921A039F5600218141 /* Wedding CostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C82FD721A039F5600218141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = alan;
+				TargetAttributes = {
+					9C82FD791A039F5600218141 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9C82FD911A039F5600218141 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9C82FD791A039F5600218141;
+					};
+				};
+			};
+			buildConfigurationList = 9C82FD751A039F5600218141 /* Build configuration list for PBXProject "Wedding Cost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C82FD711A039F5600218141;
+			productRefGroup = 9C82FD7B1A039F5600218141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C82FD791A039F5600218141 /* Wedding Cost */,
+				9C82FD911A039F5600218141 /* Wedding CostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C82FD781A039F5600218141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82FD881A039F5600218141 /* Main.storyboard in Resources */,
+				9C82FD8D1A039F5600218141 /* LaunchScreen.xib in Resources */,
+				9C82FD8A1A039F5600218141 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82FD901A039F5600218141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C82FD761A039F5600218141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82FD851A039F5600218141 /* ViewController.swift in Sources */,
+				9C82FD801A039F5600218141 /* AppDelegate.swift in Sources */,
+				9C82FD831A039F5600218141 /* Wedding_Cost.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C82FD8E1A039F5600218141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C82FD991A039F5600218141 /* Wedding_CostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C82FD941A039F5600218141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C82FD791A039F5600218141 /* Wedding Cost */;
+			targetProxy = 9C82FD931A039F5600218141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C82FD861A039F5600218141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C82FD871A039F5600218141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C82FD8B1A039F5600218141 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C82FD8C1A039F5600218141 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C82FD9A1A039F5600218141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C82FD9B1A039F5600218141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C82FD9D1A039F5600218141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wedding Cost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C82FD9E1A039F5600218141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wedding Cost/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C82FDA01A039F5600218141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wedding CostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Cost.app/Wedding Cost";
+			};
+			name = Debug;
+		};
+		9C82FDA11A039F5600218141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wedding CostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding Cost.app/Wedding Cost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C82FD751A039F5600218141 /* Build configuration list for PBXProject "Wedding Cost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82FD9A1A039F5600218141 /* Debug */,
+				9C82FD9B1A039F5600218141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C82FD9C1A039F5600218141 /* Build configuration list for PBXNativeTarget "Wedding Cost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82FD9D1A039F5600218141 /* Debug */,
+				9C82FD9E1A039F5600218141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C82FD9F1A039F5600218141 /* Build configuration list for PBXNativeTarget "Wedding CostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C82FDA01A039F5600218141 /* Debug */,
+				9C82FDA11A039F5600218141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C82FD811A039F5600218141 /* Wedding_Cost.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C82FD821A039F5600218141 /* Wedding_Cost.xcdatamodel */,
+			);
+			currentVersion = 9C82FD821A039F5600218141 /* Wedding_Cost.xcdatamodel */;
+			path = Wedding_Cost.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C82FD721A039F5600218141 /* Project object */;
+}
